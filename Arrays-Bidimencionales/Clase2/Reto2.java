@@ -21,6 +21,7 @@ public class Reto2 {
     // Devolver el array de promedios.
 
     public static double[] calculateDailyAverages(int[][] temperatures) {
+        // Escribe tu codigo aquí
         int days = temperatures[0].length;
         int stations = temperatures.length;
         double[] dailyAverages = new double[days];

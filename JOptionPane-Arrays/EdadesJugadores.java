@@ -1,12 +1,8 @@
-package aplicacion;
+// Construya un programa que capture la edad de los integrantes de un equipo de 25
+// jugadores. Se desea conocer cuántos tienen una edad mayor a 30 años.
 
 import javax.swing.JOptionPane;
-/**
- * Write a description of class EdadesJugadores here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class EdadesJugadores
 {
     public static void main(String args[]) {

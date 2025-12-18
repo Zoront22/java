@@ -1,12 +1,7 @@
-package aplicacion;
+// Construya un arreglo con los primeros N números primos.
 
 import javax.swing.JOptionPane;
-/**
- * Write a description of class PrimerosNPrimos here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class PrimerosNPrimos
 {
     public static void main(String args[]) {

@@ -5,6 +5,9 @@ public class LlenarArrayConBucleFor {
 
         // Llenar el array con un bucle for
         // el bucle "i" recorre las filas
+        
+        // matriz.length indica el número de filas, hazta que i sea menor que ese valor
+        // el ciclo parara.
         for (int i = 0; i < matriz.length; i++) {
             // el bucle "j" recorre las columnas
             for (int j = 0; j < matriz[i].length; j++) {

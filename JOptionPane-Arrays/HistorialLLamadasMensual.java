@@ -1,12 +1,9 @@
-package aplicacion;
+// Elabore un programa que capture las llamadas de cada mes del año 2016, y calcule el
+// promedio mensual de llamadas por mes.
+
 
 import javax.swing.JOptionPane;
-/**
- * Write a description of class HistorialLLamadasMensual here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class HistorialLLamadasMensual
 {
     public static void main(String args[]) {

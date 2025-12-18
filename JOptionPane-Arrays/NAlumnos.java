@@ -1,12 +1,8 @@
-package aplicacion;
+// Un maestro tiene un grupo de N alumnos que califica con valores de 5 a 10 , elabore un
+// programa que le permita saber cuántos alumnos obtuvieron cada calificación.
 
 import javax.swing.JOptionPane;
-/**
- * Write a description of class NAlumnos here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class NAlumnos
 {
     public static void main(String args[]) {

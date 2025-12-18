@@ -1,12 +1,8 @@
-package aplicacion;
+// Un empleado registra sus ventas cada quincena de un año. Elaboré un programa que calcule
+// sus ventas por trimestre durante el año capturado.
 
 import javax.swing.JOptionPane;
-/**
- * Write a description of class VentasPorQuincena here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class VentasPorQuincena
 {
     public static void main(String args[]) {

@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Practica11 {
     public static void main(String args[]) {
-        int param = 0;
+        int param;
         int x = 5, y = 3, result = 0;
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Introduce un numero para X:");
+        System.out.println("Introduce un numero: ");
         param = in.nextInt();
 
         // "SWITCH" Es una estructura de control utilizando parametros y casos
