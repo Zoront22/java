@@ -101,3 +101,47 @@ Los operadores lógicos se usan principalmente en condiciones (`if`, bucles etc.
 | `&&`     | AND lógico  |
 | `II`     | OR  lógico  |
 | `!`      | Negación    |
+> Por ejemplo `(edad < 18) && (esEstudiante)` "Si es menor de 18 años y es estudiante" sera verdadero solo si ambas condiciones se cumplen.
+> `(edad > 18) || (!esEstudiante)` "Si es mayor de 18 años ó no es estudiante" sera verdadero si una de las dos condiciones se cumplen. 
+## Sintaxis base de java.
+Java es un lenguaje orientado a objetos, que organiza el código en objetos reutilizables, facilitando la gestión y modificación, donde nuestro objeto se declara con una clase y llama a un metodo.
+```java
+Public class Ejemplo {
+  public static void main(String, args[]) {
+    System.out.println("Hello world!");
+  }
+}
+```
+- `Public class`: Define una clase publica.
+- `main`: Es nuestro metodo. Este metodo define que tipo de salida dará nuestro metodo, `main` hace referencia a que nuestro metodo puede devolver en la salida cualquier tipo de valor.
+- `System.out.println`: Es nuestra salida.
+> En este caso lo que devuelve nuestro metodo main, es el texto: "Hello world!".
+## Import en java
+`import` en Java es una palabra clave que permite usar clases de otros paquetes en tu código. Simplificando el código y haciendolo mas legible.
+### Entrada de datos con Scanner.
+`import.util.Scanner` es el import que estaremos usando para recibir datos del usuario, recibidos por un input(entrada) que sera lo que se escriba en el teclado.
+```java
+// Declaracion de la variable tipo Scanner
+Scanner input = new Scanner(System.in);
+
+// Almacenar un dato ingresado por el usuario en una variable
+int numero;
+
+System.out.println("Ingrese un numero: ");
+numero = input.nextInt();
+// El método nextInt() lee un número entero
+```
+## Estructuras condicionales.
+### If-else
+El `if-else` es una declaración condicional que te permite evaluar varias condiciones en secuencia. Ejecutando un bloque de codigo if(si) la condicion es verdadera o else(sino) en caso que no sea verdadera.
+```java
+// condicional if-else
+if (contraseñaIngresada == contraseñaCorrecta) {
+  // si la condicion se cumple entonces ejecutamos
+  System.out.println("Contraseña correcta");
+} else {
+  // si la condicion no se cumple, ejecutamos
+  System.out.println("Contraseña incorrecta");
+}
+```
+### Switch
