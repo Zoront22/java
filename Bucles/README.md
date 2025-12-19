@@ -52,10 +52,10 @@ mientras (contador < 5) {
 ```
 Su uso mas común es con expresiones booleanas.
 ```java
+int n = 0;
 boolean isTrue = false;
 
 while (!isTrue) {
-  int n = 0;
   if (n == 5) {
     isTrue = true;
   } else {
