@@ -20,3 +20,18 @@ entonces ejecutaremos el bloque de codigo dentro del for e incrementaremos 1 a l
 > Un caso estándar: se establece un iterador igual a 0. La condición es que el iterador sea menor que un cierto N. La acción es agregarle una unidad al iterador.
 > El bucle se ejecutará N+1 veces, porque el conteo comienza desde cero.
 
+<img src="BucleForDiagrama.png">
+<br>
+
+### Estructura de un bucle for.
+`for (variable de iteracion; condicion; incremento) {código}` <br>
+veamos un ejemplo en lenguaje java:
+```java
+for (int i = 0; i <= 10; i++) {
+  // este es un contador del 0 al 10
+  System.out.println(i);
+  // imprimiremos el valor de i en cada iteracion
+  // Seguiremos el bucle cuando i sea menor o igual a 10
+}
+// cuando i sea igual a 10, saldremos del bucle
+```
