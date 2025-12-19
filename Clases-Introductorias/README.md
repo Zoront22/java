@@ -145,3 +145,26 @@ if (contraseñaIngresada == contraseñaCorrecta) {
 }
 ```
 ### Switch
+`switch` es una estructura de control condicional multiple que permite ejecutar diferentes bloques de código según el valor de un parametro(variable) o expresion. Compara el resultado de la expresión con varios valores definidos en etiquetas `case` y deteniendo cada caso con un `brake` evitando la ejecucion de los siguientes casos.
+```java
+// condicional switch
+int num = 2;
+// le pasamos nuestro parametro al switch (num)
+switch (num) {
+  // si el parametro (num) es 1, ejecutamos el caso 1
+  case 1:
+    System.out.println("One");
+    break;
+    // despues de ejecutar el codigo, detenemos la sentencia con break;
+  case 2:
+    System.out.println("Two");
+    break;
+  case 3:
+    System.out.println("Three");
+    break;
+  default:
+    System.out.println("Default case");
+}
+
+// salida: "Two"
+```
