@@ -59,7 +59,7 @@ while (!isTrue) {
   if (n == 5) {
     isTrue = true;
   } else {
-    n ++;
+    n = n + 1;
   }
 }
 ```
