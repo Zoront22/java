@@ -10,18 +10,24 @@ El objetivo es practicar conceptos fundamentales, desde lo más básico hasta te
 ```bash
 ├── Arrays-Bidimecionales/
 │   ├── Clase1/
-│   |── Clase2/
-|   |── Clase3/
-|   └── Introduccion.md
+│   ├── Clase2/
+│   ├── Clase3/
+│   └── README.md
+├── Bucles/
+│   ├── do-while/
+│   │   └── README.md
+│   ├── For/
+│   ├── While/
+│   └── README.md
 ├── Clases-Introductorias/
-|   ├── Clase1...2...3...4.java
-|   └── Introduccion.md
+│   ├── Clase1...2...3...4.java
+│   └── README.md
 ├── Ejercicio-Operadores-Switch/
-|   └── Introduccion.md
+│   └── README.md
 ├── JOptionPane-Arrays/
-|   └── Introduccion.md
+│   └── README.md
 ├── Operadores-Java/
-|   └── Introduccion.md
+│   └── README.md
 ├── Pruebas/            #Practicas hechas en mi clase de Fundamentos.
 └── README.md
 ```
@@ -31,6 +37,7 @@ El objetivo es practicar conceptos fundamentales, desde lo más básico hasta te
 - **Clases-Introductorias/**
 - **Operadores-Java**
 - **Ejercicio Operadores**
+- **Bucles**
 - **JOptionPane-Arrays**
 - **Arrays-Bidimencionales**
 - **Pruebas** (Opcional).
