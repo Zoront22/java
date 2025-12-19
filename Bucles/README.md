@@ -4,7 +4,9 @@ Hay diferentes tipos de bucles, estan los bucles `for`, `while` y `do while`.
 
 <br>
 <img src="https://cdn.shortpixel.ai/spai/q_lossy+w_671+to_auto+ret_img/codigonautas.com/wp-content/uploads/2025/01/Ilustracion-bucle-programacion.jpg">
+
 > Estructura de un bucle
+
 <br>
 
 Se utilizan bucles para tareas en las que es necesario repetir la misma acción varias veces. Hay muchas tareas de este tipo en el desarrollo. Por ejemplo:
