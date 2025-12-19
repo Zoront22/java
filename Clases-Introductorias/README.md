@@ -168,3 +168,6 @@ switch (num) {
 
 // salida: "Two"
 ```
+## Flujos de control
+El control de flujo es el orden en que se ejecutan las instrucciones de un programa. Gestiona la secuencia de ejecución de comandos, alterando el flujo secuencial normal (de arriba abajo).
+Bucles (`For, While, Do-While`): Repiten un bloque de código mientras una condición sea verdadera.
