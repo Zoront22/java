@@ -4,7 +4,9 @@ Hay diferentes tipos de bucles, estan los bucles `for`, `while` y `do while`.
 
 <br>
 <img src="https://cdn.shortpixel.ai/spai/q_lossy+w_671+to_auto+ret_img/codigonautas.com/wp-content/uploads/2025/01/Ilustracion-bucle-programacion.jpg">
+
 > Estructura de un bucle
+
 <br>
 
 Se utilizan bucles para tareas en las que es necesario repetir la misma acción varias veces. Hay muchas tareas de este tipo en el desarrollo. Por ejemplo:
@@ -34,4 +36,30 @@ for (int i = 0; i <= 10; i++) {
   // Seguiremos el bucle cuando i sea menor o igual a 10
 }
 // cuando i sea igual a 10, saldremos del bucle
+```
+
+## Bucle while
+El bucle `while` es una sentencia de flujo de control que permite ejecutar código repetidamente en función de una condición. Es útil cuando no se conoce de antemano el número de iteraciones.
+Mientras la condicion sea verdadera el codigo dentro del `while` se ejecutara una y otra vez, hasta que la condicion sea falsa.
+**Ejemplo en pseudocodigo**
+```bash
+contador = 0
+mientras (contador < 5) {
+  // bloque de codigo
+  imprimir("Hola número: " + contador)
+  contador = contador + 1 // ¡Importante! Actualizar la variable para evitar un bucle infinito
+}
+```
+Su uso mas común es con expresiones booleanas.
+```java
+int n = 0;
+boolean isTrue = false;
+
+while (!isTrue) {
+  if (n == 5) {
+    isTrue = true;
+  } else {
+    n = n + 1;
+  }
+}
 ```
