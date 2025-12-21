@@ -40,7 +40,7 @@ for (int i = 0; i <= 10; i++) {
 
 ## Bucle while
 El bucle `while` es una sentencia de flujo de control que permite ejecutar código repetidamente en función de una condición. Es útil cuando no se conoce de antemano el número de iteraciones.
-Mientras la condicion sea verdadera el codigo dentro del `while` se ejecutara una y otra vez, hasta que la condicion sea falsa.
+Mientras la condicion sea verdadera el codigo dentro del `while` se ejecutara una y otra vez, hasta que la condicion sea falsa. <br>
 **Ejemplo en pseudocodigo**
 ```bash
 contador = 0
